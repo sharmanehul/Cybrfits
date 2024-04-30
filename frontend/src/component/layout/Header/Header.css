@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; /* Set font to Roboto */
+    
+  }
+  
+  .navbar {
+    background-color: rgb(253, 230, 230); /* Set background color of navbar */
+    padding: 0.3rem 0.9rem; /* Add padding to navbar (removed horizontal padding) */
+    position: sticky;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0; /* Remove default margin */
+    padding: 0 1rem; /* Add padding to the left and right sides of the container */
+  }
+  
+  .navbar-logo {
+    color: rgb(240, 93, 118); /* Set color of logo */
+    text-decoration: none; /* Remove underline from logo */
+    font-size: 1.5rem; /* Adjust font size of logo */
+    margin-right: 2rem; /* Add margin to the right of the logo */
+    transition: color 0.3s; /* Add transition effect for smooth color change */
+  }
+  
+  .navbar-logo:hover {
+    color: pink; /* Change text color of logo on hover */
+    filter: drop-shadow(0 0 10px rgb(253, 2, 148)); /* Apply drop-shadow effect on hover */
+  }
+  
+  .navbar-menu {
+    list-style-type: none; /* Remove bullet points from menu */
+    display: flex;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .navbar-item {
+    margin-right: 8rem; /* Add margin between menu items */
+  }
+  
+  .navbar-link {
+    color: rgb(64, 58, 58); /* Set color of menu links */
+    text-decoration: none; /* Remove underline from menu links */
+    font-size: 1.2rem; /* Adjust font size of menu links */
+  }
+  
+  .navbar-link:hover {
+    color: #dc1364; /* Change color of menu links on hover */
+  }
+  
+  .navbar-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-icons > * {
+    margin-left: 1rem; /* Add margin between icons */
+  }
+  
+  .navbar-search,
+  .navbar-profile,
+  .navbar-cart {
+    cursor: pointer !important; /* Add cursor pointer to icons */
+  }
+  
+  .logo-img {
+    width: 4vmax;
+  }
+  
+  .Search{
+    text-decoration: none;
+    color: black;
+  }
+
+  .Login{
+    color: black;
+  }

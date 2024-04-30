@@ -1,0 +1,77 @@
+footer{
+    margin-top: 200vmax;
+    padding: 2vmax;
+    background-color: bisque;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+
+.leftFooter{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leftFooter > h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(240, 14, 131);
+    margin-top: 6vmax;
+    font-size: 1.5vmax;
+}
+
+.leftFooter > p{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 2vmax;
+}
+
+.leftFooter > img{
+    width: 10vmax;
+    margin: 1vmax;
+    cursor: pointer;
+}
+
+.midFooter{
+    width: 60%;
+    text-align: center;
+}
+
+.midFooter > h1{
+    font-size: 4vmax;
+    font-family: fantasy;
+    color: rgb(240, 14, 131);
+    cursor: pointer;
+}
+
+.midFooter > p{
+    max-width: 60%;
+    margin: 1vmax auto;
+    color: whitesmoke;
+    font-size: 1.6vmax;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.rightFooter{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rightFooter > h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.4vmax;
+    text-decoration: underline;
+    color: rgb(240, 14, 131);;
+}
+
+.rightFooter > a{
+    text-decoration: none;
+    font-size: 1.6vmax;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    margin: 0.5vmax;
+}
